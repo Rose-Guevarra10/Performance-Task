@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class CurrencyExchange {
 	public static void main(String[] args) {
 		
@@ -7,7 +5,8 @@ public class CurrencyExchange {
 		System.out.println("Choose one from the following options");
 		System.out.println("1) USD to €");
 		System.out.println("2) € to USD");
-		System.out.println("3) to USD");
+		System.out.println("3) £ to USD");
+		System.out.println("4) USD to peso");
 		int exchange = sc.nextInt();
 		switch (exchange) {
 		 
@@ -33,7 +32,7 @@ break;
    		System.out.println( euro + "€ is" + euro*1.11 + "USD.");
  }
  else {  	
- System.out.println("Please put in positive numbers of €");	
+ System.out.println(" Please put in positive numbers of €");	
       }
    }
  break;
@@ -46,7 +45,20 @@ break;
   	System.out.println(pounds + "pounds is" + pounds*1.31 + "USD");
   }
   else {
-  	System.out.println("Please put in positive numbers of £");	
+  	System.out.println(" Please put positive numbers of £");	
+    }
+ }
+ break;
+ 
+ case 4 : {
+ System.out.println("Enter the number of USD");	
+ double USD = sc.nextDouble();
+ 
+  if(USD>=0) {
+  	System.out.println(USD + "USD" + USD* 56.507 + "Php");
+  }
+  else {
+  	System.out.println(" Please put positive numbers of USD");	
     }
  }
  break;
