@@ -45,7 +45,7 @@ break;
   	System.out.println(pounds + "pounds is" + pounds*1.31 + "USD");
   }
   else {
-  	System.out.println(" Please put positive numbers of £");	
+  	System.out.println("Please put positive numbers of £");	
     }
  }
  break;
@@ -58,7 +58,7 @@ break;
   	System.out.println(USD + "USD" + USD* 56.507 + "Php");
   }
   else {
-  	System.out.println(" Please put positive numbers of USD");	
+  	System.out.println("Please put positive numbers of USD");	
     }
  }
  break;
