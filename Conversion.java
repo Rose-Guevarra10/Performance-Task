@@ -5,17 +5,6 @@ public class CurrencyExchange {
      for(int i = 0; i<=10; i++);
     System.out.println("*");  
 
-
-System.out.println("USD TO EURO CONVERTER");
-System.out.println("EURO TO USD CONVERTER"); 
-System.out.println("POUNDS TO USD CONVERTER "); 
-System.out.println("USD TO PESO CONVERTER");
-
-System.out.println(" 1 USD = 0.90 Euro");
-System.out.println(" 1 Euro = 1.10 USD");
-System.out.println(" 1 Pound = 1.31 USD");
-System.out.println(" 1 USD = 55.99710 PHP");
-
 		System.out.println("Choose one from the following options");
 		System.out.println("1) USD to €");
 		System.out.println("2) € to USD");
