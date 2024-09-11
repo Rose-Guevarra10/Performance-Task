@@ -2,6 +2,20 @@ public class CurrencyExchange {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner (System.in);
+     for(int i = 0; i<=10; i++);
+    System.out.println("*");  
+
+
+System.out.println("USD TO EURO CONVERTER");
+System.out.println("EURO TO USD CONVERTER"); 
+System.out.println("POUNDS TO USD CONVERTER "); 
+System.out.println("USD TO PESO CONVERTER");
+
+System.out.println(" 1 USD = 0.90 Euro");
+System.out.println(" 1 Euro = 1.10 USD");
+System.out.println(" 1 Pound = 1.31 USD");
+System.out.println(" 1 USD = 55.99710 PHP");
+
 		System.out.println("Choose one from the following options");
 		System.out.println("1) USD to €");
 		System.out.println("2) € to USD");
@@ -9,7 +23,8 @@ public class CurrencyExchange {
 		System.out.println("4) USD to peso");
 		int exchange = sc.nextInt();
 		switch (exchange) {
-		 
+		
+
 	case 1 : {	
 	System.out.println("Enter the number of USD");
 	
@@ -55,7 +70,7 @@ break;
  double USD = sc.nextDouble();
  
   if(USD>=0) {
-  	System.out.println(USD + "USD" + USD* 56.507 + "Php");
+  	System.out.println(USD + "USD" + USD* 55.99710 + "Php");
   }
   else {
   	System.out.println("Please put positive numbers of USD");	
